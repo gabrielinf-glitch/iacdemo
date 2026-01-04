@@ -11,6 +11,6 @@ provider "oci" {
 #	user_ocid = var.user_ocid
 #	private_key_path = var.privatekey_path
 #	fingerprint = var.fingerprint
-    auth   = "ResourcePrincipal"
+#    auth   = "ResourcePrincipal"
 	region = var.region
 }
